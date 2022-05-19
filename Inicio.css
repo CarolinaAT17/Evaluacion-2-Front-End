@@ -1,0 +1,51 @@
+/*Cuerpo*/
+body{
+    font-family: 'Montserrat',sans-serif;
+    overflow-x:hidden;
+}
+/*Carrusel de imagenes*/
+.carousel-inner{
+    max-height: 39rem;
+}
+/*Introduccion*/
+@media (max-width:768px){
+    #intro, #nosotros{
+        width: 90% !important;
+    }
+    
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+/*Imagenes*/
+#galeria img{
+    width: 100%;
+}
+#galeria .col-lg-4{
+    margin: 0 !important;
+    padding: 25px;
+}
+#galeria img:hover{
+    border: 5px solid #f7f7f7;
+}
+/*Formulario BG*/
+#bg-contacto{
+    position: relative;
+    top: -130px;
+}
+#seccion-contacto{
+    background-color: #1C2833;
+    min-height: 500px;
+    position: relative;
+}
+#contenedor-formulario{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #2E4053;
+    border-radius: 5px;
+    max-width: 500px;
+}
+/*Iconos*/
